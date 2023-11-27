@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.upper {
+    display: flex;
+    gap: 15px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    width: 300px;
+    height: 300px;
+}
+
+.color-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(209, 208, 208);
+    border-radius: 5px;
+    width: 30px;
+    padding: 5px;
+}
+
+.color-menu * {
+    box-sizing: content-box;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.color-menu *:hover {
+    outline: solid white 1px;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+}
+
+.element {
+    flex: 1;
+}
+
+.controls {
+    display: flex;
+}
+
+.controls * {
+    flex: 1;
+}
+
